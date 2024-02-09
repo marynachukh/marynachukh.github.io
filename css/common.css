@@ -1,11 +1,28 @@
 /* common.css */
-
-html {
-  --primary-text-color: #000;
-  --primary-bg-color: #fff;
+* {
+  margin: 0;
 }
 
-footer {
-  --footer-text-color: #fff;
-  --fuuter-bg-color: #000;
+html {
+  --main-color: #009;
+  --anchor-color: #333;
+  --anchor-active-color: salmon;
+}
+
+body {
+  color: var(--main-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+p {
+  /* common property for p */
+}
+
+a {
+  color: var(--anchor-color);
 }
