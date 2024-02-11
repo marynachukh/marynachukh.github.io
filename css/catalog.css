@@ -7,3 +7,25 @@ main .container h2 > span {
 main .container h2 > {
   text-transform: uppercase;
 }
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+ul.categories > li > a {
+  color: indigo;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+ul.categories > li > a:hover {
+  color: lightgray;
+}
