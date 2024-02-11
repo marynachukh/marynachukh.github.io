@@ -12,3 +12,16 @@
 .page-footer ul > li > a {
   color: #ddd;
 }
+
+.footer-social {
+  color: #eee;
+  background-color: #333;
+}
+
+.footer-ligal {
+  background-color: #000;
+}
+
+.footer-ligal > ul > li > a {
+  color: #fff;
+}
