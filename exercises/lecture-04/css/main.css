@@ -40,11 +40,11 @@ section p {
 section p {
   font-size: 800;
 }
-.h2-1 {
+h2:first-of-type {
   color: indigo;
 }
 
-p.first {
+p.first a {
   color: green;
 }
 
@@ -97,13 +97,16 @@ Yellow {
 }
 
 .translucent-box {
-  background-color: hsl(0deg, 100%, 50%);
+  background: hsl(0deg 100% 50% / 0.5);
 }
 
+html {
+  font-size: 100%;
+}
 body {
-  font-size: 0.4em;
+  font-size: 140%;
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 240%;
 }

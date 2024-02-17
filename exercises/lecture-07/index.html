@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture-07</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <style>
+      .negative {
+        background-image: linear-gradient(
+          to left,
+          #51bae3 -50%,
+          rgb(35, 131, 210) -10%,
+          rgb(28, 85, 170) 0%,
+          rgb(10, 71, 158) 100%,
+          #101085 150%
+        );
+        height: 200px;
+      }
+
+      .percents {
+        background-image: linear-gradient(
+          to bottom,
+          rgb(150, 220, 150) 2em,
+          rgb(134, 223, 134) 4em,
+          rgb(117, 214, 117) 8em,
+          rgb(20, 193, 20) 16em,
+          rgb(9, 161, 9) 32em,
+          rgb(3, 118, 3) 64em,
+          #09270e 128em
+        );
+
+        height: 200px;
+      }
+
+      .radial {
+        background: radial-gradient(ellipse at top, orange, transparent),
+          radial-gradient(ellipse at bottom, red, transparent);
+        height: 200px;
+      }
+    </style>
+  </head>
+
+  <body class="body">
+    <h1>Gradient Text Glow</h1>
+
+    <div class="percents">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam
+      quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere
+      necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos
+      itaque!
+    </div>
+
+    <div class="negative">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam
+      quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere
+      necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos
+      itaque!
+    </div>
+
+    <div class="radial">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam
+      quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere
+      necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos
+      itaque!
+    </div>
+
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <rect
+        x="20"
+        y="20"
+        width="100"
+        height="100"
+        stroke="#1c87c9"
+        stroke-width="4"
+        fill="lightgray"
+      ></rect>
+    </svg>
+
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle
+        cx="100"
+        cy="70"
+        r="60"
+        stroke="red"
+        stroke-width="4"
+        fill="lightgray"
+      />
+    </svg>
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle
+        cx="100"
+        cy="100"
+        r="70"
+        stroke="pink"
+        stroke-width="2"
+        fill="none"
+      />
+      <line
+        x1="100"
+        y1="100"
+        x2="150"
+        y2="100"
+        stroke="pink"
+        stroke-width="4"
+      ></line>
+      <line
+        x1="100"
+        y1="100"
+        x2="100"
+        y2="40"
+        stroke="pink"
+        stroke-width="2"
+      ></line>
+    </svg>
+    <svg viewBox="-20 -20 120 120" xmlns="http://www.w3.org/2000/svg">
+      <polygon stroke="pink" fill="none" points="55,0 25,90 93,35 7,35 74,90" />
+    </svg>
+  </body>
+</html>
+
+<!-- - Встановити background для класу negative як лінійний градієнт, що направлений вліво та має такі точки зупинки: -50%, -10%, 0%, 100%, 150%. Для кожної точки зупинки встановити колір, що змінюється від світло-синього до темно-синього. 
+- Встановити background для класу percents як лінійний градієнт, що направлений вниз та має такі точки зупинки: 2em, 4em, 8em, 16em, 32em, 64em, 128em. Для кожної точки зупинки встановити колір, що змінюється від світло-зеленого до темно-зеленого. 
+- Встановити background для класу radial два радіальних градієнта з типом ellipse, перший з яких містить 2 кольори - помаранчевий та прозорий і направлений вверх, а другий містить 2 кольори - червоний та прозорий і направлений вниз.  
+Створити svg-прямокутник розміром 100х100 з координатами 20,20 20, 20. Для обрамлення встановити колір #1c87c9 та товщину лінії 4. Встановити фон прямокутника lightgray.
+Створити svg-коло розміром 200х200 радіусом = 60 та центром з координатами 100, 70. Для обрамлення встановити червоний колір та товщину лінії 4. Встановити фон кола lightgray.
+Створити svg-малюнок годинника, що показує час = 3 години
+Створити svg-малюнок зірки (необов'язкове завдання)-->
