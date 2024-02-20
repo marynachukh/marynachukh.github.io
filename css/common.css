@@ -3,25 +3,25 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 
-* {
+@import url("https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css");
+
+*,
+*::before,
+*::after {
   margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-  --primary-text-color: #000;
-  --primary-bg-color: #fff;
-  --primary-font-family: "Roboto", sans-serif;
-  --primary-font-size: 0.875rem;
-}
-
-footer {
-  --footer-text-color: #fff;
-  --fuuter-bg-color: #000;
+  --main-color: #009;
+  --anchor-color: #333;
+  --anchor-active-color: salmon;
+  --currency-symbol: "\20B4";
 }
 
 body {
   color: var(--main-color);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.875rem / 1.3;
 }
 
@@ -38,6 +38,9 @@ h1 {
 h2 {
   font-size: calc(1.2rem + 0.8vw);
 }
+p {
+  /* common property for p */
+}
 
 a {
   color: var(--anchor-color);
@@ -47,5 +50,3 @@ a {
 ul {
   list-style: none;
 }
-
-/* Не зрозуміла, де саме вписати завдання  8 до лекції 5.*/

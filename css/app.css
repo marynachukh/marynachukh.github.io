@@ -1,5 +1,3 @@
-/* app.css */
-
 .svg-icon {
   > .svg-icon-item {
     width: 48px;
@@ -143,6 +141,9 @@
   margin-right: 3rem;
 }
 
+.mt-5 {
+  margin-top: 3rem;
+}
 .d-inline-block {
   display: inline-block;
 }
