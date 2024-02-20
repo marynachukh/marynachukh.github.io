@@ -12,6 +12,9 @@
   > .footer-main {
     background-color: var(--footer-background-color);
     > .footer-main-item {
+      > ul > li {
+        list-style: none;
+      }
       > ul > li > a {
         color: var(--footer-a-color);
         font-size: var(--footer-a-font-size);
