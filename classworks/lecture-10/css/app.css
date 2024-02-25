@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+*. *::before,
+*::after {
+  box-sizing: border-box;
+}
+.box {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.box-a {
+  background-color: red;
+}
+.box-b {
+  background-color: gold;
+}
+.box-c {
+  background-color: green;
+}
+.box-d {
+  background-color: aqua;
+}
+.box-e {
+  background-color: blue;
+}
+
+.box-f {
+  background-color: magenta;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  flex: 0 1 auto;
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  flex: 0 1 auto;
+  width: calc(200% / 12);
+}
+
+.col-3 {
+  flex: 0 1 auto;
+  width: calc(300% / 12);
+}
+
+.col-4 {
+  flex: 0 1 auto;
+  width: calc(400% / 12);
+}
+
+.col-5 {
+  flex: 0 1 auto;
+  width: calc(500% / 12);
+}
+
+.col-6 {
+  flex: 0 1 auto;
+  width: calc(600% / 12);
+}
