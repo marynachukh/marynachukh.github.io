@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-container">
+        <div class="col-left">
+          <div class="login-text">
+            <h2>Welcome Back</h2>
+            <p>Create your account.<br />It's totally free.</p>
+            <a class="btn" href="">Sign Up</a>
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="login-form">
+            <h2>Login</h2>
+            <form>
+              <p>
+                <label>Username or email address<span>*</span></label>
+                <input type="text" placeholder="Username or Email" required />
+              </p>
+              <p>
+                <label>Password<span>*</span></label>
+                <input type="password" placeholder="Password" required />
+              </p>
+              <p>
+                <input type="submit" value="Sing In" />
+              </p>
+              <p>
+                <a href="">Forget Password?</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Зробіть копію каталогу forms
+
+Визначте змінну під назвою --padding-form в області :root та призначте їй значення за допомогою функції calc(). Значення обчислюється шляхом ділення 30 на 16 і множення на 1rem.
+
+Визначте такі властивості для класу .wrapper: - зовнішні границі - однакові зліва/справа, однакові зверху/знизу; - ширина - 100%; - максимальна ширина - 70rem; - мінімальна висота - 100vh; - відображення - flex; - спрямування - column; - вирівнювання контенту - по центру; - вирівнювання елементів - по центру.
+
+Визначте такі властивості для класу .form-container: - ширина - 100%; - максимальна ширина - 40rem; - висота - автоматична; - тінь боксу: зсув-x=0, зсув-y=0, радіус розмиття = 5px, колір = темно-сірий; - тло: біле; - відображення - grid; - шаблон розміру доріжок сітки - 2 колонки однакової ширини; - автоматичне розміщення елементів вздовж рядка; - жолоби між рядками та стовпцями сітки - .8em.
+
+Визначте такі властивості для класів .col-left та .col-right: - відображення - flex; - padding - значення змінної --padding-form.
+
+Визначте такі властивості для класу .col-left: - clip-path - багатокутник. Форма багатокутника починається у верхньому лівому куті елемента (0 0), потім переходить у нижній лівий кут (0% 100%) і, нарешті, переходить у верхній правий кут (100% 0)
+
+Змініть значення властивості padding, замінивши px на rem для класу .col-right:
+
+Визначте обробку події фокус для селектора .login-form input, що змінює колір рамки на значення --active-color
+
+Визначте такі властивості для селектора .login-form input з типом submit: - display: inline-block; - width: 100%; - margin-top: 5px; - color: var(--form-color); - letter-spacing: 1px; - cursor: pointer; - background: transparent; - border: 1px solid var(--form-color); - border-radius: 30px;
+
+Визначте обробку події hover для селектора .login-form input з типом submit, що змінює його колір на білий та тло на значення --form-color:
+
+Створіть media-запит max-width: 35rem, що визначає наступне: - для класу .form-container змінити flex-direction на column та відмінити властивість box-shadow; - для класів .col-left, .col-right змінити ширину на 100%, скинути зовнішні границі в 0, відмінити властивість clip-path; - для класу .col-right встановити властивість у значення --padding-form.
+ -->
